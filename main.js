@@ -1,5 +1,5 @@
 const linksSocialMedia = {
-  github: 'junin',
+  github: 'rafamenegheti',
   instagram: 'fael_carvalho7',
   twitter: 'RafaelMenegheti'
 }
