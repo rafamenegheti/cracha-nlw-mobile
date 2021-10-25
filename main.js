@@ -1,5 +1,5 @@
 const linksSocialMedia = {
-  github: 'rafamenegheti',
+  github: 'junin',
   instagram: 'fael_carvalho7',
   twitter: 'RafaelMenegheti'
 }
@@ -24,6 +24,7 @@ function getGitHubProfileInfos() {
       userImg.src = data.avatar_url
       userBio.textContent = data.bio
       userLogin.textContent = data.login
+      userTitle.textContent = `${data.name} - DoWhile 2021`
     })
 }
 
